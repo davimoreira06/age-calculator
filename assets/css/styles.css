@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #f4f4f4;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin: auto;
+    margin-top: 15vh;
+    background-color: #fff;
+    width: 60%;
+    height: 32rem;
+    border-radius: 1rem;
+}
+
+.section-inputs {
+    margin-left: 6vw;
+}
+
+.div-inp {
+    display: inline-block;
+    margin-right: 3vw;
+    margin-top: 3rem;
+}
+
+p {
+    color: hsl(0, 0%, 53%);
+    font-weight: 400;
+    font-size: 0.7rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0.3rem;
+}
+
+input {
+    width: 7vw;
+    height: 3rem;
+    border-radius: 0.3rem;
+    border: solid 1.5px hsl(0, 0%, 86%);
+    padding-left: 0.8rem;
+    color: hsl(0, 0%, 53%);
+    font-weight: 800;
+    font-size: 1.2rem;
+    letter-spacing: 0.05rem;
+}
+
+input::placeholder {
+    color: hsl(0, 0%, 53%);
+    font-weight: 800;
+    font-size: 1.15rem;
+    letter-spacing: 0.05rem;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
+
+.div-img-arrow {
+    width: 80%;
+    height: 0.05rem;
+    margin: auto;
+    background-color: hsl(0, 0%, 86%);
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+.img-arrow {
+    background-color: hsl(259, 100%, 65%);
+    border-radius: 5rem;
+    width: 3.7rem;
+    padding: 1rem;
+    margin-left: 45.5vw;
+    margin-top: -3.8vh;
+}
+
+.section-infs {
+    margin-left: 6vw;
+}
+
+h2 {
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+}
+
+span {
+    color: hsl(259, 100%, 65%);
+}
